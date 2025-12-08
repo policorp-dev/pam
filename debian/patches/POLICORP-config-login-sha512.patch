@@ -1,0 +1,13 @@
+Index: pam/debian/pam-configs/unix
+===================================================================
+--- pam.orig/debian/pam-configs/unix
++++ pam/debian/pam-configs/unix
+@@ -18,6 +18,6 @@ Session-Initial:
+ 	required	pam_unix.so
+ Password-Type: Primary
+ Password:
+-	[success=end default=ignore]	pam_unix.so obscure use_authtok try_first_pass yescrypt
++	[success=end default=ignore]	pam_unix.so obscure use_authtok try_first_pass sha512
+ Password-Initial:
+-	[success=end default=ignore]	pam_unix.so obscure yescrypt
++	[success=end default=ignore]	pam_unix.so obscure sha512
