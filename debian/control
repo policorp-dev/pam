@@ -92,3 +92,5 @@ Description: Documentation of PAM
  Contains documentation (in HTML, ASCII, and PostScript format) for libpam,
  the Pluggable Authentication Modules library, a library that enables the
  local system administrator to choose how applications authenticate users.
+
+Vcs-Git: https://github.com/policorp-dev/pam.git
